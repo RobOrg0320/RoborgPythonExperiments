@@ -1,0 +1,21 @@
+brainrot = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            "ROFL": "una respuesta a una broma",
+            "SHEESH": "ligera desaprobación",
+            "AGGRO": "ponerse agresivo/enojado"
+            }
+while True:
+    
+    word = input("Sobre que palabra quieres saber mas?")
+
+    if word == "CRINGE":
+        print(brainrot["CRINGE"])
+    elif word == "LOL":
+        print(brainrot["LOL"])
+    elif word == "ROFL":
+        print(brainrot["ROFL"])
+    elif word == "SHEESH":
+        print(brainrot["SHEESH"])
+    elif word == "AGGRO":
+        print(brainrot["AGGRO"])
